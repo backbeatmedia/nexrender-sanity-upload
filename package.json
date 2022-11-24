@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/backbeatmedia/nexrender-sanity-upload.git"
   },
+  "keywords": [
+    "nexrender",
+    "sanity",
+    "upload"
+  ],
   "author": "Jeremy Smith",
   "license": "MIT",
   "bugs": {
