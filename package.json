@@ -1,6 +1,6 @@
 {
   "name": "nexrender-sanity-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nexrender action to upload assets to Sanity",
   "main": "index.js",
   "scripts": {
