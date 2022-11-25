@@ -29,7 +29,7 @@ module.exports = async (
                       {filename: filename
                         })
   
-  await client.patch(document)
+                        await client.patch(document)
                   .set({
                     [fieldName]: {
                       _type: fieldType,
