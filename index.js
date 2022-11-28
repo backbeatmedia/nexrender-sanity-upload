@@ -25,7 +25,7 @@ module.exports = async (
 
   // discover any existing asset stored in the field
   const fields = `{${fieldName}{asset->}}`;
-  const exisiting = await client.fetch(`*[_id == \"${document}\"] ${fields}`, {});
+  const existing = await client.fetch(`*[_id == \"${document}\"] ${fields}`, {});
 
   // upload the new asset
   const uploaded = await client.assets.upload(fieldType,
