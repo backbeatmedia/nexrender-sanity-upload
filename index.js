@@ -48,11 +48,7 @@ module.exports = async (
     .commit()
 
   // if there was already an asset in that field - delete it
-  if (existing[fieldName]) {
-
-    await client.delete(existing[fieldName]._id)
-
-  }
+  if (existing[fieldName]) await client.delete(existing[fieldName]._id)
 
 }
 
