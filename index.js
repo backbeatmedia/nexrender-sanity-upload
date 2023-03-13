@@ -17,8 +17,6 @@ module.exports = async (
   type
 ) => {
 
-console.log(`sanityClient = ${sanityClient}`);
-
   // make a Sanity client
   const client = createClient(params)
 
