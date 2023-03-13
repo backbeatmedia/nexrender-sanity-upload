@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/backbeatmedia/nexrender-sanity-upload/issues"
   },
-  "homepage": "https://github.com/backbeatmedia/nexrender-sanity-upload#readme"
+  "homepage": "https://github.com/backbeatmedia/nexrender-sanity-upload#readme",
+  "dependencies": {
+    "@sanity/client": "^5.2.2"
+  }
 }
