@@ -1,5 +1,5 @@
 const requireg = require('requireg');
-const sanityClient = requireg('@sanity/client')
+const { createClient } = requireg('@sanity/client')
 const path = require('path')
 const fs = require('fs')
 
@@ -20,7 +20,7 @@ module.exports = async (
 console.log(`sanityClient = ${sanityClient}`);
 
   // make a Sanity client
-  const client = sanityClient(params)
+  const client = createClient(params)
 
   // find where the asset to be uploaded is stored
   var filePath = input || job.output
