@@ -1,4 +1,5 @@
-const sanityClient = require('@sanity/client')
+const requireg = require('requireg');
+const sanityClient = requireg('@sanity/client')
 const path = require('path')
 const fs = require('fs')
 
