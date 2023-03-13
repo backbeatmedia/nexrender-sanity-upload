@@ -1,5 +1,4 @@
-const requireg = require('requireg');
-const { createClient } = requireg('@sanity/client')
+const { createClient } = require('@sanity/client')
 const path = require('path')
 const fs = require('fs')
 
